@@ -30,15 +30,15 @@ div {
 
 }
 
-div .container {
-  width: 500 px;
+.container {
   margin: 0 auto;
 }
 
-div .card {
-  margin-bottom: 20px;
+.card {
+  width: 70%;
   border-radius: 4px;
   box-shadow: 0 10px 30px rgba(0,0,0,.1);
+  margin: 0 auto 20px;
 }
 
 a {
@@ -59,7 +59,7 @@ a:hover {
 }
 
 .btn-blue:hover {
-  color: black;
+  color: #592941;
   background-color: #C0C8D8;
 }
 
@@ -76,21 +76,25 @@ a:hover {
 }
 
 .round-img {
-  width: 100px;
+  width: 80px;
   border-radius: 50%;
 }
 
+#leader {
+  width: 100px;
+}
+
 .social {
-
+  font-size: 20px;
 }
 
 
-@media (max-width: 960px) {
+/*@media (max-width: 960px) {*/
   /* For a screen < 960px, this CSS will be read */
-  .container {
-    width: 700px;
+ /* .container {*/
+ /*   width: 700px;
   }
-}
+}*/
 @media (max-width: 720px) {
   /* For a screen < 720px, this CSS will be read */
   .container {
